@@ -221,9 +221,9 @@ export default function BinaryTree() {
   const [tree,setTree]=useState(t)
   const [value,setValue]=useState();
   const [editValue,setEditValue]=useState();
-  useEffect(()=>{
-    setTree(t);
-  },[])
+  // useEffect(()=>{
+  //   setTree(t);
+  // },[])
   console.log("tree in app",tree)
 
   const addNode=(e,value)=>{
