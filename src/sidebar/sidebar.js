@@ -78,6 +78,12 @@ export default function Sidebar() {
             <span>Users</span>
           </Link>
         </li>
+        <li >
+          <Link class="nav-link" to='/tree'>
+         < PeopleIcon/> 
+            <span>Tree</span>
+          </Link>
+        </li>
 
         {/* <!-- Divider --> */}
         <hr class="sidebar-divider d-none d-md-block" />
